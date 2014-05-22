@@ -1,28 +1,35 @@
 READ ME
 =============
 
-# Context
+## Context
 
 Exercise in the frame of the course "Getting and Cleaning Data"
 https://class.coursera.org/getdata-003/
 
-# Objectives
+## Objectives
 
 From a raw public datasets, build tidy datasets ready for later analysis
 Tool used for that is R.
 
-# Content of repository
+## Content of repository
 
 The repository contains:
-- raw data compressed
-- tidy data sets
-- script transform the raw datasets into tidy ones
-- codebook.md : description of data
+* README
+* raw data compressed (inputs)
+* summarized-data.txt : tidy summarized data (output)
+* run_analysis.R : script transform the raw datasets into tidy ones
+* codebook.md : description of data
 
-# Instructions
+
+## Instructions
 
 ### Pre-requisites :
-- to have R already installed
+- R already installed
+- R package "reshape2" installed, otherwise run in R:
+```
+install.packages("reshape2")
+```
+
 
 ### Steps:
 1. Unzip the raw data in folder
@@ -32,13 +39,11 @@ The repository contains:
 4. write following command:
 ```
 source("run_analysis.R")
-
 ```
 
-### Results 
-Two tidy datasets created in the working director
-- A tidy and merged train and test dataset:  "dataset.csv"
-- A tidy dataset summarizing the variablesfrom train and test datasets: "dataset-summary.csv"
+### Output
+
+* A tidy dataset summarizing the variables from train and test datasets for each pair activity / subject : "summarized-data.txt"
 
 ====
 

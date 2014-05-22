@@ -27,7 +27,9 @@ For each, there are:
 * activity : nominal variable represented by integers: y_[train|test].txt
 * subjects : nominal variable represented by integers: subject_[train|test].txt
 
-Besides, there are "transversal" datasets:
+#### Descriptives data
+
+Besides, there are  descriptive datasets:
 * description of activities. Mappign table: the Activity code (see above the Activity variable) and associated name.
 * variables names of measurements. Mapping table: Column number and associated variable name of concerned measurements
 
@@ -48,18 +50,33 @@ A dataset is created by assembling:
 
 ### Assigning labels to features
 * features are names properly
-* parenthesis symbols are removed for readability
+* parenthesis symbols are removed for a better readability
+* symbols "-" are replaced by "." for a better readability
 
 ### Measurement Variables selection
 
 For the purpose of the exercice, the dataset focuses only of measurements related to any kind of mean or standard deviation.
 All others measurements variables are excluded from the tidy dataset.
 
-=> Tidy dataset create !
+### Description of activities
 
-### Summarizing data in another dataset
+Replace activity code by activity names from the activity labels dataset
+ 
+### Summarizing measurements data
 
-Measurements variabe are summarized by pair activity / subject 
+Measurements variable are summarized by their mean for each pair activity / subject.
+
+## Tidy dataset
+
+From these raw datasets, only one tidy datasets is generated with following structure:
+* Activity: nominal variable with descriptive categorical value
+* Subject : nominal variable represented by integers
+* Measurements variables : only the ones related to mean or standard deviation
+* better readable names of all these features
+
+This data set is created in format TXT with Tab-separated value method
+
+
 
 
 
