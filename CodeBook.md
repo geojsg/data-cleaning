@@ -55,7 +55,7 @@ A dataset is created by assembling:
 
 ### Measurement Variables selection
 
-For the purpose of the exercice, the dataset focuses only of measurements related to any kind of mean or standard deviation.
+For the purpose of the exercise, the dataset focuses only of measurements related to any kind of mean or standard deviation.
 All others measurements variables are excluded from the tidy dataset.
 
 ### Description of activities
@@ -68,13 +68,13 @@ Measurements variable are summarized by their mean for each pair activity / subj
 
 ## Tidy dataset
 
-From these raw datasets, only one tidy datasets is generated with following structure:
+From these raw datasets, only one tidy dataset is generated with following structure:
 * Activity: nominal variable with descriptive categorical value
 * Subject : nominal variable represented by integers
 * Measurements variables : only the ones related to mean or standard deviation
 * better readable names of all these features
 
-This data set is created in format TXT with Tab-separated value method
+This dataset is created in format TXT with Tab-separated value method
 
 
 

@@ -4,18 +4,22 @@ READ ME
 ## Context
 
 Exercise in the frame of the course "Getting and Cleaning Data"
+
 https://class.coursera.org/getdata-003/
+
 
 ## Objectives
 
-From a raw public datasets, build tidy datasets ready for later analysis
+From a raw public datasets, build tidy dataset ready for later analysis
+
 Tool used for that is R.
+
 
 ## Content of repository
 
 The repository contains:
-* README
-* raw data compressed (inputs)
+* README.md
+* UCI HAR Dataset.zip : raw data compressed (inputs)
 * summarized-data.txt : tidy summarized data (output)
 * run_analysis.R : script transform the raw datasets into tidy ones
 * codebook.md : description of data
