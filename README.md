@@ -21,7 +21,7 @@ The repository contains:
 * README.md
 * UCI HAR Dataset.zip : raw data compressed (inputs)
 * summarized-data.txt : tidy summarized data (output)
-* run_analysis.R : script transform the raw datasets into tidy ones
+* run_analysis.R : script transforming the raw datasets into tidy one
 * codebook.md : description of data
 
 
