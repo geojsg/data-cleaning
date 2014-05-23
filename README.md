@@ -36,16 +36,18 @@ install.packages("reshape2")
 
 
 ### Steps:
-1. Unzip the raw data in folder
+1. Unzip the raw data in a folder
 2. Download and put the script "run_analysis.R" in same folder
 2. Launch R
-3. Set working director as folder in which raw data are unzipped
+3. Set working directory as the folder in which raw data are unzipped
 4. write following command:
 ```
 source("run_analysis.R")
 ```
 
 ### Output
+
+When "COMPLETED" :
 
 * A tidy dataset summarizing the variables from train and test datasets for each pair activity / subject : "summarized-data.txt"
 
